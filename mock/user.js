@@ -2,37 +2,36 @@
 export default {
   // 支持值为 Object 和 Array
   'GET /api/currentUser': {
-    name: 'Serati Ma',
+    name: 'shaofei',
     avatar: 'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
     userid: '00000001',
-    email: 'antdesign@alipay.com',
+    email: '503148647@qq.com',
     signature: '海纳百川，有容乃大',
-    title: '交互专家',
-    group: '蚂蚁金服－某某某事业群－某某平台部－某某技术部－UED',
+    title: 'web前端',
     tags: [
       {
         key: '0',
-        label: '很有想法的',
+        label: 'web前端',
       },
       {
         key: '1',
-        label: '专注设计',
+        label: '爱动漫',
       },
       {
         key: '2',
-        label: '辣~',
+        label: '二次元',
       },
       {
         key: '3',
-        label: '大长腿',
+        label: '听音乐',
       },
       {
         key: '4',
-        label: '川妹子',
+        label: '电子竞技',
       },
       {
         key: '5',
-        label: '海纳百川',
+        label: '吃零食',
       },
     ],
     notifyCount: 12,
@@ -40,11 +39,11 @@ export default {
     country: 'China',
     geographic: {
       province: {
-        label: '浙江省',
+        label: '湖北省',
         key: '330000',
       },
       city: {
-        label: '杭州市',
+        label: '武汉市',
         key: '330100',
       },
     },
@@ -82,7 +81,7 @@ export default {
     ],
     text: {
       湖北: ["2016-01-01", "备注文字湖北旅游略"],
-      北京: ["2017-01-01", "备注文字北京旅游略"]
+      北京: ["2017-01-01", "备注文字北京旅游略略略"]
     }
   },
   'GET /api/myTra': (req, res) => {
